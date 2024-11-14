@@ -1,0 +1,6 @@
+﻿services:
+  threads:
+    image: threads
+    build:
+      context: .
+      dockerfile: Dockerfile
